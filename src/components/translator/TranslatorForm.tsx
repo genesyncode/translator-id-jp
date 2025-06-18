@@ -1,5 +1,5 @@
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -33,6 +33,14 @@ const TranslatorForm = () => {
   const { toast } = useToast();
 
   const languages = ['Indonesian', 'Japanese'];
+  
+  useEffect(() => {
+    setInputText('');
+    setOutputText('');
+    setProgress(0);
+    setIsTranslating(false);
+    setApiUsed('');
+  }, []);
 
   const handleTranslate = async () => {
     if (!inputText.trim()) {
