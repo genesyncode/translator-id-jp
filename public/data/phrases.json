@@ -1,0 +1,265 @@
+
+{
+  "categories": {
+    "greetings": {
+      "name": "Salam & Sapaan",
+      "phrases": [
+        {
+          "japanese": "おはよう",
+          "indonesian": "Selamat pagi (informal)",
+          "romaji": "ohayou"
+        },
+        {
+          "japanese": "おはようございます",
+          "indonesian": "Selamat pagi (formal)",
+          "romaji": "ohayou gozaimasu"
+        },
+        {
+          "japanese": "こんにちは",
+          "indonesian": "Selamat siang/sore",
+          "romaji": "konnichiwa"
+        },
+        {
+          "japanese": "こんばんは",
+          "indonesian": "Selamat malam",
+          "romaji": "konbanwa"
+        },
+        {
+          "japanese": "はじめまして",
+          "indonesian": "Senang berkenalan",
+          "romaji": "hajimemashite"
+        },
+        {
+          "japanese": "よろしくお願いします",
+          "indonesian": "Mohon bantuannya",
+          "romaji": "yoroshiku onegaishimasu"
+        },
+        {
+          "japanese": "さようなら",
+          "indonesian": "Selamat tinggal",
+          "romaji": "sayounara"
+        },
+        {
+          "japanese": "また明日",
+          "indonesian": "Sampai jumpa besok",
+          "romaji": "mata ashita"
+        }
+      ]
+    },
+    "thanks": {
+      "name": "Terima Kasih & Maaf",
+      "phrases": [
+        {
+          "japanese": "ありがとう",
+          "indonesian": "Terima kasih (informal)",
+          "romaji": "arigatou"
+        },
+        {
+          "japanese": "ありがとうございます",
+          "indonesian": "Terima kasih (formal)",
+          "romaji": "arigatou gozaimasu"
+        },
+        {
+          "japanese": "どうもありがとうございました",
+          "indonesian": "Terima kasih banyak",
+          "romaji": "doumo arigatou gozaimashita"
+        },
+        {
+          "japanese": "すみません",
+          "indonesian": "Maaf/Permisi",
+          "romaji": "sumimasen"
+        },
+        {
+          "japanese": "ごめんなさい",
+          "indonesian": "Maaf (minta maaf)",
+          "romaji": "gomen nasai"
+        },
+        {
+          "japanese": "どういたしまして",
+          "indonesian": "Sama-sama",
+          "romaji": "dou itashimashite"
+        }
+      ]
+    },
+    "daily": {
+      "name": "Percakapan Sehari-hari",
+      "phrases": [
+        {
+          "japanese": "はい",
+          "indonesian": "Ya/Iya",
+          "romaji": "hai"
+        },
+        {
+          "japanese": "いいえ",
+          "indonesian": "Tidak",
+          "romaji": "iie"
+        },
+        {
+          "japanese": "わかりません",
+          "indonesian": "Saya tidak tahu",
+          "romaji": "wakarimasen"
+        },
+        {
+          "japanese": "もう一度お願いします",
+          "indonesian": "Tolong sekali lagi",
+          "romaji": "mou ichido onegaishimasu"
+        },
+        {
+          "japanese": "日本語がわかりません",
+          "indonesian": "Saya tidak mengerti bahasa Jepang",
+          "romaji": "nihongo ga wakarimasen"
+        },
+        {
+          "japanese": "英語を話せますか",
+          "indonesian": "Bisakah Anda berbicara bahasa Inggris?",
+          "romaji": "eigo wo hanasemasu ka"
+        },
+        {
+          "japanese": "助けてください",
+          "indonesian": "Tolong bantu saya",
+          "romaji": "tasukete kudasai"
+        },
+        {
+          "japanese": "どこですか",
+          "indonesian": "Di mana?",
+          "romaji": "doko desu ka"
+        }
+      ]
+    },
+    "food": {
+      "name": "Makanan & Minuman",
+      "phrases": [
+        {
+          "japanese": "いただきます",
+          "indonesian": "Selamat makan (sebelum makan)",
+          "romaji": "itadakimasu"
+        },
+        {
+          "japanese": "ごちそうさまでした",
+          "indonesian": "Terima kasih atas makanannya (setelah makan)",
+          "romaji": "gochisousama deshita"
+        },
+        {
+          "japanese": "おいしいです",
+          "indonesian": "Enak",
+          "romaji": "oishii desu"
+        },
+        {
+          "japanese": "お水をください",
+          "indonesian": "Tolong air putih",
+          "romaji": "omizu wo kudasai"
+        },
+        {
+          "japanese": "メニューを見せてください",
+          "indonesian": "Tolong tunjukkan menunya",
+          "romaji": "menyuu wo misete kudasai"
+        },
+        {
+          "japanese": "お会計お願いします",
+          "indonesian": "Tolong hitung total pembayaran",
+          "romaji": "okaikei onegaishimasu"
+        },
+        {
+          "japanese": "辛いですか",
+          "indonesian": "Apakah pedas?",
+          "romaji": "karai desu ka"
+        },
+        {
+          "japanese": "おすすめは何ですか",
+          "indonesian": "Apa yang direkomendasikan?",
+          "romaji": "osusume wa nan desu ka"
+        }
+      ]
+    },
+    "shopping": {
+      "name": "Berbelanja",
+      "phrases": [
+        {
+          "japanese": "いくらですか",
+          "indonesian": "Berapa harganya?",
+          "romaji": "ikura desu ka"
+        },
+        {
+          "japanese": "高いです",
+          "indonesian": "Mahal",
+          "romaji": "takai desu"
+        },
+        {
+          "japanese": "安いです",
+          "indonesian": "Murah",
+          "romaji": "yasui desu"
+        },
+        {
+          "japanese": "これをください",
+          "indonesian": "Saya mau ini",
+          "romaji": "kore wo kudasai"
+        },
+        {
+          "japanese": "袋はいりません",
+          "indonesian": "Tidak perlu kantong",
+          "romaji": "fukuro wa irimasen"
+        },
+        {
+          "japanese": "クレジットカードは使えますか",
+          "indonesian": "Bisakah pakai kartu kredit?",
+          "romaji": "kurejitto kaado wa tsukaemasu ka"
+        },
+        {
+          "japanese": "レシートをください",
+          "indonesian": "Tolong struknya",
+          "romaji": "reshiito wo kudasai"
+        },
+        {
+          "japanese": "他の色はありますか",
+          "indonesian": "Apakah ada warna lain?",
+          "romaji": "hoka no iro wa arimasu ka"
+        }
+      ]
+    },
+    "direction": {
+      "name": "Arah & Lokasi",
+      "phrases": [
+        {
+          "japanese": "駅はどこですか",
+          "indonesian": "Di mana stasiun?",
+          "romaji": "eki wa doko desu ka"
+        },
+        {
+          "japanese": "まっすぐ行ってください",
+          "indonesian": "Tolong jalan lurus",
+          "romaji": "massugu itte kudasai"
+        },
+        {
+          "japanese": "右に曲がってください",
+          "indonesian": "Tolong belok kanan",
+          "romaji": "migi ni magatte kudasai"
+        },
+        {
+          "japanese": "左に曲がってください",
+          "indonesian": "Tolong belok kiri",
+          "romaji": "hidari ni magatte kudasai"
+        },
+        {
+          "japanese": "遠いですか",
+          "indonesian": "Apakah jauh?",
+          "romaji": "tooi desu ka"
+        },
+        {
+          "japanese": "近いです",
+          "indonesian": "Dekat",
+          "romaji": "chikai desu"
+        },
+        {
+          "japanese": "道に迷いました",
+          "indonesian": "Saya tersesat",
+          "romaji": "michi ni mayoimashita"
+        },
+        {
+          "japanese": "地図を見せてください",
+          "indonesian": "Tolong tunjukkan peta",
+          "romaji": "chizu wo misete kudasai"
+        }
+      ]
+    }
+  }
+}

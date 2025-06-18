@@ -1,0 +1,219 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Japanese fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+/* Premium design system with enhanced colors and effects */
+
+@layer base {
+  :root {
+    --background: 249 250 251; /* gray-50 */
+    --foreground: 17 24 39; /* gray-900 */
+
+    --card: 255 255 255;
+    --card-foreground: 17 24 39;
+
+    --popover: 255 255 255;
+    --popover-foreground: 17 24 39;
+
+    --primary: 37 99 235; /* blue-600 */
+    --primary-foreground: 248 250 252;
+
+    --secondary: 229 231 235; /* gray-200 */
+    --secondary-foreground: 17 24 39;
+
+    --muted: 243 244 246;
+    --muted-foreground: 107 114 128;
+
+    --accent: 34 197 94; /* green-500 */
+    --accent-foreground: 255 255 255;
+
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+
+    --border: 229 231 235; /* gray-200 */
+    --input: 229 231 235;
+    --ring: 37 99 235;
+
+    --radius: 1rem;
+
+    --sidebar-background: 248 250 252;
+    --sidebar-foreground: 71 85 105;
+    --sidebar-primary: 37 99 235;
+    --sidebar-primary-foreground: 248 250 252;
+    --sidebar-accent: 241 245 249;
+    --sidebar-accent-foreground: 37 99 235;
+    --sidebar-border: 226 232 240;
+    --sidebar-ring: 37 99 235;
+  }
+
+  .dark {
+    --background: 15 23 42; /* slate-900 */
+    --foreground: 248 250 252;
+
+    --card: 30 41 59; /* slate-800 */
+    --card-foreground: 248 250 252;
+
+    --popover: 30 41 59;
+    --popover-foreground: 248 250 252;
+
+    --primary: 59 130 246; /* blue-500 */
+    --primary-foreground: 15 23 42;
+
+    --secondary: 51 65 85; /* slate-700 */
+    --secondary-foreground: 248 250 252;
+
+    --muted: 51 65 85;
+    --muted-foreground: 148 163 184;
+
+    --accent: 16 185 129; /* emerald-500 */
+    --accent-foreground: 15 23 42;
+
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+
+    --border: 51 65 85; /* slate-700 */
+    --input: 51 65 85;
+    --ring: 59 130 246;
+
+    --sidebar-background: 15 23 42;
+    --sidebar-foreground: 203 213 225;
+    --sidebar-primary: 59 130 246;
+    --sidebar-primary-foreground: 248 250 252;
+    --sidebar-accent: 30 41 59;
+    --sidebar-accent-foreground: 59 130 246;
+    --sidebar-border: 51 65 85;
+    --sidebar-ring: 59 130 246;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  }
+
+  /* Japanese font class */
+  .font-japanese {
+    font-family: 'Noto Sans JP', 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  /* Premium glass card effect */
+  .glass-card {
+    @apply backdrop-blur-md border border-white/20 dark:border-slate-700/30;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  
+  .dark .glass-card {
+    background: rgba(30, 41, 59, 0.6);
+  }
+
+  /* Premium gradient buttons */
+  .gradient-primary {
+    @apply bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700;
+  }
+
+  .gradient-secondary {
+    @apply bg-gradient-to-r from-slate-600 to-slate-700 hover:from-slate-700 hover:to-slate-800;
+  }
+
+  /* Enhanced animations */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Premium shadows */
+  .premium-shadow {
+    @apply shadow-xl shadow-blue-500/10 dark:shadow-blue-400/5;
+  }
+
+  /* Enhanced focus states */
+  .focus-premium {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 dark:focus-visible:ring-blue-400;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent;
+  }
+
+  /* Premium borders */
+  .premium-border {
+    @apply border border-gray-200/60 dark:border-slate-700/60;
+  }
+}
+
+/* Custom scrollbar with premium styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-slate-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-slate-500;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .card {
+    border: 2px solid;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
